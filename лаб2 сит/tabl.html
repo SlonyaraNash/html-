@@ -1,0 +1,498 @@
+<DOCTYPE>
+<html>
+	<body background="https://images.freeimages.com/images/large-previews/cd6/grass-3-1145821.jpg">
+		<p><a href="футбол2.html">Главная страница</a></p>
+		<p><a href="tabl.html">Топ 50 дорогостоящих игроков</a></p>
+		<h1 align="center">Топ 50 дорогостоящих игроков</h1>
+		<details>
+			<summary> График</summary>
+			<table>
+				<tr>
+					<td>Значение по оси ОХ</td>
+					<td align="center"> Результат</td>
+				</tr>
+				<tr>
+					<td>
+						<input type="radio" name ="OX" value="1">Возраст<br>
+						<input type="radio" name ="OX" value="2">Страна<br>
+						<input type="radio" name ="OX" value="3">Клуб
+					</td>
+					<td>
+						<input type="checkbox" name="res" value="1">Максимальная стоимость<br>
+						<input type="checkbox" name="res" value="2">Минимальная стоимость<br>
+						<input type="checkbox" name="res" value="3">Кол-во игроков
+					</td>
+				</tr>
+			</table>
+			<p><input type="button" value="Построить"></p>
+		</details>
+
+
+		<details>
+			<summary>Фильтр</summary>
+			<p>Игрок:<input type="text"></p>
+			<p>Возраст: от <input type="number" min="0" max="100"> до <input type="number" min="0" max="100"></p>
+			<p>Страна:<input type="text"></p>
+			<p>Клуб:<input type="text"></p>
+			<p>Стоимость в млн. евро: от <input type="number" min="0" max="200"> до <input type="number" min="0" max="200"></p>					
+		</details>
+
+		<details>
+			<summary>Сортировка</summary>
+				Первый уровень: 
+					<select name="yes/no">
+						<option value="0"> Нет </option>	
+						<option value="1"> Игрок </option>	
+						<option value="2"> Возраст </option>
+						<option value="3"> Страна </option>	
+						<option value="4"> Клуб </option>	
+						<option value="5"> Стоимость </option>
+						<option value="6"> Игровая позиция </option>
+					</select>
+				по убыванию?
+				<input type="checkbox" name="sort" value="1">
+
+				<br>
+
+				Второй уровень: 
+					<select name="yes/no">
+						<option value="0"> Нет </option>	
+						<option value="1"> Игрок </option>	
+						<option value="2"> Возраст </option>
+						<option value="3"> Страна </option>	
+						<option value="4"> Клуб </option>	
+						<option value="5"> Стоимость </option>
+						<option value="6"> Игровая позиция </option>
+					</select>
+				по убыванию?
+				<input type="checkbox" name="sort" value="2">
+
+				<br>
+
+				Третий уровень: 
+					<select name="yes/no">
+						<option value="0"> Нет </option>	
+						<option value="1"> Игрок </option>	
+						<option value="2"> Возраст </option>
+						<option value="3"> Страна </option>	
+						<option value="4"> Клуб </option>	
+						<option value="5"> Стоимость </option>
+						<option value="6"> Игровая позиция </option>	
+					</select>
+				по убыванию?
+				<input type="checkbox" name="sort" value="3">
+		</details>
+		<table border="1" align="center" cellspacing="0" cellpadding="10">
+			<tr bgcolor="#F5F5DC">
+				<td>Игрок</td>
+				<td>Возраст</td>
+				<td>Страна</td>
+				<td>Клуб</td>
+				<td>Стоимость в млн. евро</td>
+				<td>Игровая позиция</td>
+
+			</tr>
+			<tr bgcolor="#90EE90">
+				<td><img src="https://img.a.transfermarkt.technology/portrait/header/418560-1709108116.png?lm=1#" align="center" width="40">Эрлинг Холанд</td>
+				<td>24</td>
+				<td>Норвегия</td>
+				<td>Манчестер Сити</td>
+				<td>200</td>
+				<td>Центральный нап.</td>
+			</tr>
+			<tr bgcolor="#90EE90">
+				<td><img src="https://img.a.transfermarkt.technology/portrait/header/581678-1693987944.jpg?lm=1#" align="center" width="40">Джуд Белингем</td>
+				<td>21</td>
+				<td>Англия</td>
+				<td>Реал Мадрид</td>
+				<td>180</td>
+				<td>Атак. полузащитник</td>
+			</tr>
+			<tr bgcolor="#90EE90">
+				<td><img src="https://img.a.transfermarkt.technology/portrait/header/371998-1664869583.jpg?lm=1" align="center" width="40">Винисиус Джуниор</td>
+				<td>24</td>
+				<td>Бразилия</td>
+				<td>Реал Мадрид</td>
+				<td>180</td>
+				<td>Левый вингер</td>
+			</tr>
+			<tr bgcolor="#90EE90">
+				<td><img src="https://img.a.transfermarkt.technology/portrait/header/342229-1682683695.jpg?lm=1" align="center" width="40">Килиан Мбаппе</td>
+				<td>25</td>
+				<td>Франция</td>
+				<td>Реал Мадрид</td>
+				<td>180</td>
+				<td>Центральный нап.</td>
+			</tr>
+			<tr bgcolor="#90EE90">
+				<td><img src="https://img.a.transfermarkt.technology/portrait/header/406635-1668524492.jpg?lm=1" align="center" width="40">Фил Фоден</td>
+				<td>24</td>
+				<td>Англия</td>
+				<td>Манчестер Сити</td>
+				<td>150</td>
+				<td>Правый вингер</td>
+			</tr>
+			<tr bgcolor="#90EE90">
+				<td><img src="https://img.a.transfermarkt.technology/portrait/header/433177-1684155052.jpg?lm=1" align="center" width="40">Букайо Сака</td>
+				<td>23</td>
+				<td>Англия</td>
+				<td>Арсенал</td>
+				<td>140</td>
+				<td>Правый вингер</td>
+			</tr>
+			<tr bgcolor="#90EE90">
+				<td><img src="https://img.a.transfermarkt.technology/portrait/header/598577-1689710503.jpg?lm=1" align="center" width="40">Флориан Виртц</td>
+				<td>21</td>
+				<td>Германия</td>
+				<td>Байер 04</td>
+				<td>130</td>
+				<td>Атак. полузащитник</td>
+			</tr>
+			<tr bgcolor="#90EE90">
+				<td><img src="https://img.a.transfermarkt.technology/portrait/header/580195-1711745441.jpg?lm=1" align="center" width="40">Джамал Мусиала</td>
+				<td>21</td>
+				<td>Германия</td>
+				<td>Бавария</td>
+				<td>130</td>
+				<td>Атак. полузащитник</td>
+			</tr>
+			<tr bgcolor="#90EE90">
+				<td><img src="https://img.a.transfermarkt.technology/portrait/header/357565-1682587890.jpg?lm=1" align="center" width="40">Родри</td>
+				<td>28</td>
+				<td>Испания</td>
+				<td>Манчестер Сити</td>
+				<td>130</td>
+				<td>Опорный полузащитник</td>
+			</tr>
+			<tr bgcolor="#90EE90">
+				<td><img src="https://img.a.transfermarkt.technology/portrait/header/937958-1720606123.jpg?lm=1" align="center" width="40">Ламин Ямаль</td>
+				<td>17</td>
+				<td>Испания</td>
+				<td>Барселона</td>
+				<td>120</td>
+				<td>Правый вингер</td>
+			</tr>
+			<tr bgcolor="#90EE90">
+				<td><img src="https://img.a.transfermarkt.technology/portrait/header/369081-1681999815.jpg?lm=1" align="center" width="40">Федрико Валверде</td>
+				<td>26</td>
+				<td>Уругвай</td>
+				<td>Реал Мадрид</td>
+				<td>120</td>
+				<td>Центр. полузащитник</td>
+			</tr>
+			<tr bgcolor="#90EE90">
+				<td><img src="https://img.a.transfermarkt.technology/portrait/header/357662-1687962936.jpg?lm=1" align="center" width="40">Деклан Райс</td>
+				<td>25</td>
+				<td>Англия</td>
+				<td>Арсенал</td>
+				<td>120</td>
+				<td>Опорный полузащитник</td>
+			</tr>
+			<tr bgcolor="#90EE90">
+				<td><img src="https://img.a.transfermarkt.technology/portrait/header/412363-1693988167.jpg?lm=1" align="center" width="40">Родриго</td>
+				<td>23</td>
+				<td>Бавария</td>
+				<td>Реал Мадрид</td>
+				<td>110</td>
+				<td>Правый вингер</td>
+			</tr>
+			<tr bgcolor="#90EE90">
+				<td><img src="https://img.a.transfermarkt.technology/portrait/header/406625-1695024988.jpg?lm=1" align="center" width="40">Лаутаро Мартинез</td>
+				<td>27</td>
+				<td>Аргентина</td>
+				<td>Интер</td>
+				<td>110</td>
+				<td>Центральный нап.</td>
+			</tr>
+			<tr bgcolor="#90EE90">
+				<td><img src="https://img.a.transfermarkt.technology/portrait/header/316264-1678877651.jpg?lm=1" align="center" width="40">Мартни Одегард</td>
+				<td>25</td>
+				<td>Норвегия</td>
+				<td>Арсенал</td>
+				<td>110</td>
+				<td>Атак. полузащитник</td>
+			</tr>
+			<tr bgcolor="#90EE90">
+				<td><img src="https://img.a.transfermarkt.technology/portrait/header/640428-1668500874.jpg?lm=1" align="center" width="40">Эдуардо Камавинга</td>
+				<td>21</td>
+				<td>Франция</td>
+				<td>Реал Мадрид</td>
+				<td>110</td>
+				<td>Центр. полузащитник</td>
+			</tr>
+			<tr bgcolor="#90EE90">
+				<td><img src="https://img.a.transfermarkt.technology/portrait/header/413112-1668500754.jpg?lm=1" align="center" width="40">Аурелиен Тхоуамени</td>
+				<td>24</td>
+				<td>Франция</td>
+				<td>Реал Мадрид</td>
+				<td>100</td>
+				<td>Опорный полузащитник</td>
+			</tr>
+			</tr>
+			<tr bgcolor="#90EE90">
+				<td><img src="https://img.a.transfermarkt.technology/portrait/header/132098-1700211169.jpg?lm=1" align="center" width="40">Хари Кейн</td>
+				<td>31</td>
+				<td>Англия</td>
+				<td>Бавария</td>
+				<td>100</td>
+				<td>Центральный нап.</td>
+			</tr>
+			<tr bgcolor="#90EE90">
+				<td><img src="https://img.a.transfermarkt.technology/portrait/header/646740-1682685701.jpg?lm=1" align="center" width="40">Гави</td>
+				<td>20</td>
+				<td>Испания</td>
+				<td>Барселона</td>
+				<td>90</td>
+				<td>Центр. полузащитник</td>
+			</tr>
+			<tr bgcolor="#90EE90">
+				<td><img src="https://img.a.transfermarkt.technology/portrait/header/576024-1684920938.jpg?lm=1" align="center" width="40">Джулиан Алварез</td>
+				<td>24</td>
+				<td>Аргентина</td>
+				<td>Атлетико Мадрид</td>
+				<td>90</td>
+				<td>Центральный нап.</td>
+			</tr>
+			<tr bgcolor="#90EE90">
+				<td><img src="https://img.a.transfermarkt.technology/portrait/header/568177-1712320986.jpg?lm=1" align="center" width="40">Кол Палмер</td>
+				<td>22</td>
+				<td>Англия</td>
+				<td>Челси</td>
+				<td>90</td>
+				<td>Атак. полузащитник</td>
+			</tr>
+			<tr bgcolor="#90EE90">
+				<td><img src="https://img.a.transfermarkt.technology/portrait/header/357164-1661352687.jpg?lm=1" align="center" width="40">Рафаэль Лиао</td>
+				<td>25</td>
+				<td>Португалия</td>
+				<td>Милан</td>
+				<td>90</td>
+				<td>Левый вингер</td>
+			</tr>
+			<tr bgcolor="#90EE90">
+				<td><img src="https://img.a.transfermarkt.technology/portrait/header/520624-1668522672.jpg?lm=1" align="center" width="40">Бруно Гуимарес</td>
+				<td>26</td>
+				<td>Бразилия</td>
+				<td>Ньюкасл</td>
+				<td>85</td>
+				<td>Опорный полузащитник</td>
+			</tr>
+			<tr bgcolor="#90EE90">
+				<td><img src="https://img.a.transfermarkt.technology/portrait/header/683840-1620304992.jpg?lm=1" align="center" width="40">Педри</td>
+				<td>21</td>
+				<td>Испания</td>
+				<td>Барселона</td>
+				<td>80</td>
+				<td>Центр. полузащитник</td>
+			</tr>
+			<tr bgcolor="#90EE90">
+				<td><img src="https://img.a.transfermarkt.technology/portrait/header/566931-1695158618.jpg?lm=1" align="center" width="40">Хави Симонс</td>
+				<td>21</td>
+				<td>Нидерланды</td>
+				<td>Лейпциг</td>
+				<td>80</td>
+				<td>Атак. полузащитник</td>
+			</tr>
+			<tr bgcolor="#90EE90">
+				<td><img src="https://img.a.transfermarkt.technology/portrait/header/502670-1708553120.jpg?lm=1" align="center" width="40">Хвича Кварацхелия</td>
+				<td>23</td>
+				<td>Грузия</td>
+				<td>Наполи</td>
+				<td>80</td>
+				<td>Левый вингер</td>
+			</tr>
+			<tr bgcolor="#90EE90">
+				<td><img src="https://img.a.transfermarkt.technology/portrait/header/495666-1718697201.jpg?lm=1" align="center" width="40">Вилиам Салиба</td>
+				<td>23</td>
+				<td>Франция</td>
+				<td>Арсенал</td>
+				<td>80</td>
+				<td>Центр. защитник</td>
+			</tr>
+			<tr bgcolor="#90EE90">
+				<td><img src="https://img.a.transfermarkt.technology/portrait/header/480692-1697903145.jpg?lm=1" align="center" width="40">Луис Диаз</td>
+				<td>27</td>
+				<td>Колумбия</td>
+				<td>Тотенхем</td>
+				<td>80</td>
+				<td>Левый вингер</td>
+			</tr>
+			<tr bgcolor="#90EE90">
+				<td><img src="https://img.a.transfermarkt.technology/portrait/header/258004-1684921271.jpg?lm=1" align="center" width="40">Рубен Диас</td>
+				<td>27</td>
+				<td>Португалия</td>
+				<td>Манчестер Сити</td>
+				<td>80</td>
+				<td>Центр. защитник</td>
+			</tr>
+			<tr bgcolor="#90EE90">
+				<td><img src="https://img.a.transfermarkt.technology/portrait/header/255942-1725531625.jpg?lm=1" align="center" width="40">Николо Барелла</td>
+				<td>27</td>
+				<td>Италия</td>
+				<td>Интер</td>
+				<td>80</td>
+				<td>Центр. полузащитник</td>
+			</tr>
+			<tr bgcolor="#90EE90">
+				<td><img src="https://img.a.transfermarkt.technology/portrait/header/687626-1660729724.jpg?lm=1" align="center" width="40">Моисес Каицедо</td>
+				<td>22</td>
+				<td>Эквадор</td>
+				<td>Челси</td>
+				<td>75</td>
+				<td>Опорный полузащитник</td>
+			</tr>
+			<tr bgcolor="#90EE90">
+				<td><img src="https://img.a.transfermarkt.technology/portrait/header/648195-1669894717.jpg?lm=1" align="center" width="40">Энзо Фернандес</td>
+				<td>23</td>
+				<td>Аргентина</td>
+				<td>Челси</td>
+				<td>75</td>
+				<td>Центр. полузащитник</td>
+			</tr>
+			<tr bgcolor="#90EE90">
+				<td><img src="https://img.a.transfermarkt.technology/portrait/header/534033-1669835342.jpg?lm=1" align="center" width="40">Алексис Мак Аллистер</td>
+				<td>25</td>
+				<td>Аргентина</td>
+				<td>Ливерпуль</td>
+				<td>75</td>
+				<td>Центр. полузащитник</td>
+			</tr>
+			<tr bgcolor="#90EE90">
+				<td><img src="https://img.a.transfermarkt.technology/portrait/header/475959-1713391602.jpg?lm=1" align="center" width="40">Жоко Гвардиол</td>
+				<td>22</td>
+				<td>Хорватия</td>
+				<td>Манчестер Сити</td>
+				<td>75</td>
+				<td>Левый защитник</td>
+			</tr>
+			<tr bgcolor="#90EE90">
+				<td><img src="https://img.a.transfermarkt.technology/portrait/header/451276-1700209677.jpg?lm=1" align="center" width="40">Доминик Шобослаи</td>
+				<td>23</td>
+				<td>Венгрия</td>
+				<td>Ливерпуль</td>
+				<td>75</td>
+				<td>Центр. полузащитник</td>
+			</tr>
+			<tr bgcolor="#90EE90">
+				<td><img src="https://img.a.transfermarkt.technology/portrait/header/435338-1684162833.jpg?lm=1" align="center" width="40">Габриел Магалхаес</td>
+				<td>26</td>
+				<td>Бразилия</td>
+				<td>Арсенал</td>
+				<td>75</td>
+				<td>Центр. защитник</td>
+			</tr>
+			<tr bgcolor="#90EE90">
+				<td><img src="https://img.a.transfermarkt.technology/portrait/header/401923-1725459265.png?lm=1" align="center" width="40">Виктор Осимхен</td>
+				<td>25</td>
+				<td>Нигерия</td>
+				<td>Галтасрай</td>
+				<td>75</td>
+				<td>Центральный нап.</td>
+			</tr>
+			<tr bgcolor="#90EE90">
+				<td><img src="https://img.a.transfermarkt.technology/portrait/header/349066-1680791339.jpg?lm=1" align="center" width="40">Александр Исак</td>
+				<td>25</td>
+				<td>Швеция</td>
+				<td>Ньюкасл</td>
+				<td>75</td>
+				<td>Центральный нап.</td>
+			</tr>
+			<tr bgcolor="#90EE90">
+				<td><img src="https://img.a.transfermarkt.technology/portrait/header/309400-1683903902.jpg?lm=1" align="center" width="40">Кай Хавертс</td>
+				<td>25</td>
+				<td>Германия</td>
+				<td>Арсенал</td>
+				<td>75</td>
+				<td>Центральный нап.</td>
+			</tr>
+			<tr bgcolor="#90EE90">
+				<td><img src="https://img.a.transfermarkt.technology/portrait/header/709187-1709676169.png?lm=1" align="center" width="40">Нико Вильямс</td>
+				<td>22</td>
+				<td>Испания</td>
+				<td>Атлетик Бильбо</td>
+				<td>70</td>
+				<td>Левый вингер</td>
+			</tr>
+			<tr bgcolor="#90EE90">
+				<td><img src="https://img.a.transfermarkt.technology/portrait/header/480267-1701118351.jpg?lm=1" align="center" width="40">Роналд Арауджа</td>
+				<td>25</td>
+				<td>Уругвай</td>
+				<td>Барселона</td>
+				<td>70</td>
+				<td>Центр. защитник</td>
+			</tr>
+			<tr bgcolor="#90EE90">
+				<td><img src="https://img.a.transfermarkt.technology/portrait/header/447661-1696598670.jpg?lm=1" align="center" width="40">Доуглас Луиз</td>
+				<td>26</td>
+				<td>Бразилия</td>
+				<td>Ювентус</td>
+				<td>70</td>
+				<td>Центр. полузащитник</td>
+			</tr>
+			<tr bgcolor="#90EE90">
+				<td><img src="https://img.a.transfermarkt.technology/portrait/header/326330-1656499973.png?lm=1" align="center" width="40">Фрэнки де Янг</td>
+				<td>27</td>
+				<td>Нидерланды</td>
+				<td>Барселона</td>
+				<td>70</td>
+				<td>Центр. полузащитник</td>
+			</tr>
+			<tr bgcolor="#90EE90">
+				<td><img src="https://img.a.transfermarkt.technology/portrait/header/325443-1693591840.jpg?lm=1" align="center" width="40">Виктор Гекорес</td>
+				<td>26</td>
+				<td>Швеция</td>
+				<td>Спортинг Лиссабон</td>
+				<td>70</td>
+				<td>Центральный нап.</td>
+			</tr>
+			<tr bgcolor="#90EE90">
+				<td><img src="https://img.a.transfermarkt.technology/portrait/header/315853-1727024207.jpg?lm=1" align="center" width="40">Алессандро Бастони</td>
+				<td>25</td>
+				<td>Италия</td>
+				<td>Интер</td>
+				<td>70</td>
+				<td>Центр. защитник</td>
+			</tr>
+			<tr bgcolor="#90EE90">
+				<td><img src="https://img.a.transfermarkt.technology/portrait/header/314353-1701680958.jpg?lm=1" align="center" width="40">Трент Александр-Арнолд</td>
+				<td>26</td>
+				<td>Англия</td>
+				<td>Ливерпуль</td>
+				<td>70</td>
+				<td>Правый защитник</td>
+			</tr>
+			<tr bgcolor="#90EE90">
+				<td><img src="https://img.a.transfermarkt.technology/portrait/header/294057-1687982662.jpg?lm=1" align="center" width="40">Джеймс Мэдисон</td>
+				<td>27</td>
+				<td>Англия</td>
+				<td>Тотенхем</td>
+				<td>70</td>
+				<td>Атак. полузащитник</td>
+			</tr>
+			<tr bgcolor="#90EE90">
+				<td><img src="https://img.a.transfermarkt.technology/portrait/header/241641-1684311533.jpg?lm=1" align="center" width="40">Бернандо Силва</td>
+				<td>30</td>
+				<td>Португалия</td>
+				<td>Манчестер Сити</td>
+				<td>70</td>
+				<td>Атак. полузащитник</td>
+			</tr>
+			<tr bgcolor="#90EE90">
+				<td><img src="https://img.a.transfermarkt.technology/portrait/header/192565-1694587968.jpg?lm=1" align="center" width="40">Лерой Сане</td>
+				<td>28</td>
+				<td>Германия</td>
+				<td>Бавария</td>
+				<td>70</td>
+				<td>Правый вингер</td>
+			</tr>
+			<tr bgcolor="#90EE90">
+				<td><img src="https://img.a.transfermarkt.technology/portrait/header/708265-1653406915.jpg?lm=1" align="center" width="40">Брадлей Баркола</td>
+				<td>22</td>
+				<td>Франция</td>
+				<td>ПСЖ</td>
+				<td>65</td>
+				<td>Левый вингер</td>
+			</tr>			
+		</table>			
+	</body>
+</html>	
