@@ -1,0 +1,172 @@
+.toptab {
+	width: 80%;
+	display: block;
+	height: 20px;
+	margin: 0 auto;
+	padding: 5px;
+	background: grey;
+	white-space: nowrap;	
+}
+
+.topic {
+	width: 60%;
+	height: 80%;
+	margin: 1px;
+	padding: 1px;
+	background: white;
+	display: inline-block;
+}
+
+.my-image {
+	width: 21px;
+}
+
+.menu {
+	background-image: url("https://images.freeimages.com/images/large-previews/cd6/grass-3-1145821.jpg");
+	width: 80.6%;
+	height: 250px;
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 1.3em;
+	line-height: 300%;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.menu a{
+	white-space: nowrap;
+	padding: 15px 80px 40px 15px;
+	text-decoration: none;
+	color: black;
+}
+
+#redtxt {
+	color: red;
+}
+
+.top {
+	padding: 80px 0 0 0;
+}
+
+.borderok {
+	display: block;
+	margin: 0 auto;
+	border: solid thin grey;
+	width:80.5%;
+	height: 80%;
+}
+
+.obolocka {
+	margin-top: 10px;
+	text-align: center;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.block-pict {
+	white-space: normal;
+	margin-left: 50px;
+	margin-top: 10px;
+	width: 60%;
+	background: #9D81BA;
+	display: inline-block;
+	height: 25%;
+	text-align: center;
+	vertical-align: top;
+}
+
+.pict1 {
+	width: 62%;
+}
+
+p {
+	text-align: center;
+}
+
+.block-pict2 {
+	display: inline-block;
+	width: 30%;
+	background: #AFDAFC;
+	margin-right: 50px;
+	margin-left: 10px;
+}
+
+.pict2 {
+	width: 82.5%;
+}
+
+.razmer {
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.obolochka2 {
+	width: 27.25%;
+    margin-top: 10px;
+	margin-left: 4.4%;
+    display: inline-block;
+	white-space: normal;
+}
+
+.obolochka2dop {
+	margin-right: 4.4%;
+}
+
+.block-pict3 {
+	background: #AFDAFC;
+    display: block; 
+    align-items: center; 
+    margin-top: 10px;
+    height: 200px;
+    text-align: left;
+	overflow: visible;
+	
+}
+
+.txt {
+	white-space: normal;
+	padding-top: 15%;
+}
+
+.pict3 {
+	float: left;
+    width: 35%;
+    margin-right: 20px;
+	margin-top: 5%
+	
+}
+
+.details3 {
+    text-align: center;
+    margin-top: 10px; 
+}
+
+.borderok2 {
+	display: block;
+	margin: 0 auto;
+	border: solid thin grey;
+	border-top: none;
+	width:80.5%;
+	height: 50px;
+	white-space: nowrap;
+}
+
+.fio {
+	margin-top: 15px;
+	margin-left: 10px;
+	float: left;
+	font-size: 1.1em;
+	white-space: nowrap;
+}
+
+.contacts {
+	margin-top: 14px;
+	margin-right: 10px;
+	float: right;
+	font-size: 1.1em;
+	white-space: nowrap;
+}
+
+	
+	
