@@ -1,0 +1,225 @@
+.menu  {
+	width: 80.6%;
+	margin: 0 auto;
+	background: lightgrey;
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows:1fr;
+	line-height:200%;
+	font-size:1.5em;
+	justify-items:start;
+	overflow: hidden;
+}
+
+div > a{
+	text-decoration: none;
+	color:black;
+}
+
+.active{
+	padding-left:10%;
+	height:120%;
+	width:50%;
+	background-color: grey;
+}
+
+.active > a{
+	color: yellow;
+}
+
+.borderok {
+	display: grid;
+	margin: 0 auto;
+	border: solid thin grey;
+	width:80.5%;
+	height: auto;
+}
+
+.obolocka {
+	align-content:center;
+	display: grid;
+    width: 90%;
+    margin: auto;
+    grid-template-rows: repeat(3, 0.3fr);
+    grid-template-columns: repeat(2, 1fr);
+	grid-template-areas:
+                 "block-pict block-pict2"
+                 "block-pict block-pict3"
+                 "block-pict block-pict4";
+    grid-gap: 5px;
+	justify-content:center;
+}
+
+.obolocka > div {
+   overflow: hidden;
+}
+.obolocka img {
+    width: 100%; 
+    height: 100%;
+}
+
+.obolocka > .img1 {
+    grid-area: 1 / 1 / 4 / 2;
+}
+
+
+.obolochka2 {
+	display: grid;
+    width: 90%;
+    margin: auto;
+    grid-template-columns: repeat(4, 23.3%);
+    grid-gap: 2.25%;
+	overflow: hidden;
+}
+
+.obolochka2 > .block {
+	border: solid thin grey;
+	background: #B5FFF4;
+}
+
+ h2 {
+    text-align: center;
+}
+
+p {
+	text-align: justify;
+}
+
+.borderok2 {
+	display: grid;
+	margin: 0 auto;
+	border: solid thin grey;
+	width:80.5%;
+	height: auto;
+	border-top: none;
+}
+
+.menu2 {
+	display:grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows:1fr;
+	overflow: hidden;
+}
+
+.menu2 > .fio {
+	margin-top: 15px;
+	margin-left: 10px;
+	font-size: 1.1em;
+	margin-bottom: 15px;
+}
+
+.menu2 > .contacts {
+	margin-top: 14px;
+	margin-right: 10px;
+	text-align: right;
+	font-size: 1.1em;
+	margin-bottom: 15px;
+}
+
+
+@media (max-width: 900px) {
+    .menu {
+		grid-template-columns: repeat(2,25%);
+		grid-template-rows: repeat(2, 1fr);
+		justify-content:center;
+		text-align:center;
+    }
+	
+	.active {
+		padding-left: 0%;
+		height:100%;
+		width:80%;
+		background-color: grey;
+	}
+	
+	.obolocka {
+        grid-template-columns: repeat(1,1fr);
+		grid-template-rows: repeat(6, 0.3fr);
+		grid-template-areas: "block-pict"
+							 "block-pict"
+							 "block-pict"
+							 "block-pict2"
+							 "block-pict3"
+							 "block-pict4";
+    }	
+	
+    .obolochka2 {
+        grid-template-columns: 1fr;
+    }
+
+    .menu2 {
+        grid-template-columns: 1fr;
+    }
+	
+	.menu2 > .contacts {
+	text-align: left;
+	margin-left: 10px;
+	}
+	
+	.menu2 > .fio {
+	margin-bottom: 0;
+	}
+}
+
+
+/*.obolochka2dop {
+	margin-right: 4.4%;
+}
+
+.block-pict3 {
+	background: #AFDAFC;
+    display: block; 
+    align-items: center; 
+    margin-top: 10px;
+    height: 200px;
+    text-align: left;
+	overflow: visible;
+	
+}
+
+.txt {
+	white-space: normal;
+	padding-top: 15%;
+}
+
+.pict3 {
+	float: left;
+    width: 35%;
+    margin-right: 20px;
+	margin-top: 5%
+	
+}
+
+.details3 {
+    text-align: center;
+    margin-top: 10px; 
+}
+
+.borderok2 {
+	display: block;
+	margin: 0 auto;
+	border: solid thin grey;
+	border-top: none;
+	width:80.5%;
+	height: 50px;
+	white-space: nowrap;
+}
+
+.fio {
+	margin-top: 15px;
+	margin-left: 10px;
+	float: left;
+	font-size: 1.1em;
+	white-space: nowrap;
+}
+
+.contacts {
+	margin-top: 14px;
+	margin-right: 10px;
+	float: right;
+	font-size: 1.1em;
+	white-space: nowrap;
+}*\
+
+	
+	
